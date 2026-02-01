@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - HTTP Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <header>
+            <h1>About This Project</h1>
+        </header>
+        
+        <main>
+            <section>
+                <h2>Technical Implementation</h2>
+                <p style="line-height: 1.8; color: var(--text-light); margin-bottom: 16px;">
+                    This HTTP server is implemented in C using POSIX socket API. It demonstrates
+                    fundamental networking concepts including socket creation, binding, listening,
+                    accepting connections, and handling HTTP requests.
+                </p>
+            </section>
+            
+            <section>
+                <h2>Code Structure</h2>
+                <div class="feature-card">
+                    <p style="line-height: 1.8; color: var(--text-light);">
+                        <strong>main.c:</strong> Server initialization and main loop<br>
+                        <strong>http_handler.c:</strong> HTTP protocol implementation<br>
+                        <strong>file_server.c:</strong> File operations and serving<br>
+                        <strong>mime_types.c:</strong> Content-Type detection
+                    </p>
+                </div>
+            </section>
+            
+            <section>
+                <p><a href="/" style="color: var(--primary); text-decoration: none; font-weight: 600;">← Back to Home</a></p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

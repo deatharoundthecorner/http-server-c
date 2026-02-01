@@ -1,0 +1,19 @@
+╔═══════════════════════════════════════════════════════════╗
+║         Plain Text File Test                              ║
+╚═══════════════════════════════════════════════════════════╝
+
+This is a plain text file served by a custom HTTP server.
+
+Server Details:
+---------------
+- Language: C
+- Socket API: POSIX sockets
+- Protocol: HTTP/1.1
+- Content-Type: text/plain
+
+If you can read this, the server correctly:
+✓ Identified the .txt extension
+✓ Set Content-Type header to text/plain
+✓ Loaded and transmitted the file content
+
+Test successful!

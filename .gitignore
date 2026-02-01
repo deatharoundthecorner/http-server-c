@@ -1,0 +1,13 @@
+# Build artifacts
+build/
+*.o
+httpserver
+
+# Editor files
+*.save
+*~
+.*.swp
+
+# OS files
+.DS_Store
+Thumbs.db

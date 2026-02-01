@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom HTTP Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content-wrapper">
+        <header>
+            <h1>Custom HTTP Server</h1>
+            <p class="subtitle">Built with C and POSIX Sockets</p>
+        </header>
+        
+        <main>
+            <section class="features">
+                <h2>Server Capabilities</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Static Files</h3>
+                        <p>Serves HTML, CSS, JavaScript, and images</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>MIME Detection</h3>
+                        <p>Automatic content-type identification</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>rror Handling</h3>
+                        <p>Proper 404 and error responses</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>ecurity</h3>
+                        <p>Path traversal protection</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="test-links">
+                <h2>Test Links</h2>
+                <ul>
+                    <li><a href="/">Home Page</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/test.txt">Plain Text File</a></li>
+                    <li><a href="/styles.css">CSS File (raw)</a></li>
+                    <li><a href="/app.js">JavaScript File (raw)</a></li>
+                    <li><a href="/404test.html">404 Error Test</a></li>
+                </ul>
+            </section>
+            
+            <section class="info">
+                <p id="status">Server status: <span class="online">Online</span></p>
+                <p id="timestamp"></p>
+            </section>
+        </main>
+        
+        <footer>
+            <p>HTTP/1.1 Server Implementation | C Programming Assignment</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
