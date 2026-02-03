@@ -51,7 +51,7 @@ http-server/
 
 ### Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/http-server.git
+git clone https://github.com/deatharoundthecorner/http-server.git
 cd http-server
 ```
 
