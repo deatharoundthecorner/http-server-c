@@ -220,19 +220,6 @@ This project demonstrates:
 - **No CGI support** - Static files only (no server-side execution)
 - **No compression** - Files served without gzip/deflate
 
-## 🔮 Future Improvements
-
-- [ ] Multi-threading with `pthread`
-- [ ] HTTPS support with OpenSSL
-- [ ] HTTP/1.1 keep-alive connections
-- [ ] Chunked transfer encoding for large files
-- [ ] Configuration file support
-- [ ] Access logging to file
-- [ ] Virtual host support
-- [ ] CGI/FastCGI support
-- [ ] Compression (gzip)
-- [ ] Range requests (partial content)
-
 ## 📖 How It Works
 
 ### Server Startup
@@ -260,18 +247,7 @@ This project demonstrates:
 - **File not found** → Send 404 response (client error)
 - **Path traversal** → Send 403 response (security)
 - **Memory errors** → Send 500 response (server error)
-
-## 🧪 Assignment Compliance
-
-| Requirement | Points | Implementation |
-|------------|--------|----------------|
-| Server runs and serves same page | 50% | Infinite accept loop in `main.c` |
-| Serves different files correctly | 20% | URI parsing + dynamic file loading |
-| Error handling | 10% | All syscalls checked, HTTP error responses |
-| Multiple file types | 10% | 9 MIME types in `mime_types.c` |
-| Optimizations | 10% | SO_REUSEADDR, bounded buffers, efficient I/O |
-| **Total** | **100%** | ✅ All requirements met |
-
+- 
 ## 🤝 Contributing
 
 This is an educational project. Feel free to:
